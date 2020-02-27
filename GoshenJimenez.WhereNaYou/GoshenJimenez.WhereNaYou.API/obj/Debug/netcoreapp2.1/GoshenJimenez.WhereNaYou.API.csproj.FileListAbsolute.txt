@@ -1,3 +1,9 @@
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csprojAssemblyReference.cache
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csproj.CoreCompileInputs.cache
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorAssemblyInfo.cache
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorAssemblyInfo.cs
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.AssemblyInfoInputs.cache
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.AssemblyInfo.cs
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.deps.json
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.runtimeconfig.json
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.runtimeconfig.dev.json
@@ -5,12 +11,8 @@ C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNa
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.pdb
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.Views.dll
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.Views.pdb
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csprojAssemblyReference.cache
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csproj.CoreCompileInputs.cache
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorAssemblyInfo.cache
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorAssemblyInfo.cs
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.AssemblyInfoInputs.cache
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.AssemblyInfo.cs
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.dll
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\bin\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.pdb
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.TagHelpers.input.cache
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.TagHelpers.output.cache
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorCoreGenerate.cache
@@ -27,6 +29,6 @@ C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNa
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorTargetAssemblyInfo.cache
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.RazorTargetAssemblyInfo.cs
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.Views.pdb
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csproj.CopyComplete
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.dll
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.pdb
-C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.API\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.API.csproj.CopyComplete

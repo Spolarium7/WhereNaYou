@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GoshenJimenez.WhereNaYou.API.Infrastructure.Domain.Data;
 using GoshenJimenez.WhereNaYou.API.Infrastructure.Domain.Models;
+using GoshenJimenez.WhereNaYou.DataTransferObjects.Groups;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,11 +22,44 @@ namespace GoshenJimenez.WhereNaYou.API.Controllers
         }
 
        //get all
-       [HttpGet("/api/groups")]
+        [HttpGet("/api/groups")]
         [HttpGet("/api/groups/search")]
-        public IActionResult Index()
+        public IActionResult Index(string keyword = "", int pageIndex = 1, int pageSize = 3)
         {
-            return Ok("OK");
+            Page<Group> result = new Page<Group>();
+            if (pageSize < 1)
+            {
+                pageSize = 1;
+            }
+
+            IQueryable<Group> groupQuery = (IQueryable<Group>)this._context.Groups;
+
+            if (string.IsNullOrEmpty(keyword) == false)
+            {
+                groupQuery = groupQuery.Where(g => g.Name.Contains(keyword));
+            }
+
+            long queryCount = groupQuery.Count();
+
+            int pageCount = (int)Math.Ceiling((decimal)(queryCount / pageSize));
+            long mod = (queryCount % pageSize);
+
+            if (mod > 0)
+            {
+                pageCount = pageCount + 1;
+            }
+
+            int skip = (int)(pageSize * (pageIndex - 1));
+            List<Group> groups = groupQuery.ToList();
+
+            result.Items = groups.Skip(skip).Take((int)pageSize).ToList();
+            result.PageCount = pageCount;
+            result.PageSize = pageSize;
+            result.QueryCount = queryCount;
+            result.PageIndex = pageIndex;
+
+
+            return Ok(result);
         }
 
         [HttpGet("/api/groups/{id?}")]
@@ -41,5 +75,6 @@ namespace GoshenJimenez.WhereNaYou.API.Controllers
 
             return BadRequest();
         }
+
     }
 }
