@@ -76,5 +76,28 @@ namespace GoshenJimenez.WhereNaYou.API.Controllers
             return BadRequest();
         }
 
+
+
+        //add group
+        [HttpPost("/api/groups")]
+        public IActionResult PostGroup([FromBody] AddGroup model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            var group = new Group()
+            {
+                Id = Guid.NewGuid(),
+                Name = model.Name,
+                UserId = model.UserId
+            };
+
+            this._context.Groups.Add(group);
+            this._context.SaveChanges();
+
+            return Ok(new { Id = group.Id });
+        }
     }
 }
