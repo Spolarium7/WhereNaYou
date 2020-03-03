@@ -149,5 +149,27 @@ namespace GoshenJimenez.WhereNaYou.API.Controllers
 
             return Ok(new { Id = group.Id });
         }
+
+        //delete group
+        [HttpDelete("/api/groups/{id}")]
+        public IActionResult DeleteGroup(Guid? id)
+        {
+            if (id == null)
+            {
+                return BadRequest();
+            }
+
+            var group = this._context.Groups.FirstOrDefault(g => g.Id == id);
+
+            if (group == null)
+            {
+                return BadRequest();
+            }
+
+            this._context.Groups.Remove(group);
+            this._context.SaveChanges();
+
+            return Ok();
+        }
     }
 }
