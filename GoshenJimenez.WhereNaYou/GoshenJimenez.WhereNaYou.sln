@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoshenJimenez.WhereNaYou.API", "GoshenJimenez.WhereNaYou.API\GoshenJimenez.WhereNaYou.API.csproj", "{867B984E-A09C-448B-9BDE-9B461B39BE92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoshenJimenez.WhereNaYou.DataTransferObjects", "GoshenJimenez.WhereNaYou.DataTransferObjects\GoshenJimenez.WhereNaYou.DataTransferObjects.csproj", "{B931CEE4-6B12-45D1-AA6B-97EA584414F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoshenJimenez.WhereNaYou.DataTransferObjects", "GoshenJimenez.WhereNaYou.DataTransferObjects\GoshenJimenez.WhereNaYou.DataTransferObjects.csproj", "{B931CEE4-6B12-45D1-AA6B-97EA584414F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoshenJimenez.WhereNaYou.Web", "GoshenJimenez.WhereNaYou.Web\GoshenJimenez.WhereNaYou.Web.csproj", "{C7E9C74F-A750-4E75-93CA-8C599145ABED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B931CEE4-6B12-45D1-AA6B-97EA584414F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B931CEE4-6B12-45D1-AA6B-97EA584414F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B931CEE4-6B12-45D1-AA6B-97EA584414F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E9C74F-A750-4E75-93CA-8C599145ABED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E9C74F-A750-4E75-93CA-8C599145ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E9C74F-A750-4E75-93CA-8C599145ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E9C74F-A750-4E75-93CA-8C599145ABED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

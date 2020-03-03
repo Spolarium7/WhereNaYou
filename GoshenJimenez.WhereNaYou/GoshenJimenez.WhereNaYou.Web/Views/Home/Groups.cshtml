@@ -1,0 +1,26 @@
+﻿@using GoshenJimenez.WhereNaYou.Web.ViewModels.Groups;
+@model GoshenJimenez.WhereNaYou.Web.ViewModels.Groups.GroupsViewModel
+
+@{
+    ViewData["Title"] = "Groups";
+}
+
+<h2>Groups</h2>
+
+@{ 
+    if(Model.Groups != null)
+    {
+        if(Model.Groups.Items.Count > 0)
+        {
+            foreach(GroupViewModel group in Model.Groups.Items)
+            {
+                <p>
+                    <span>@group.Id</span>
+                    <span>@group.Name</span>
+                    <span>@group.CreatedAt</span>
+                </p>
+            }
+        }
+    }
+
+}
