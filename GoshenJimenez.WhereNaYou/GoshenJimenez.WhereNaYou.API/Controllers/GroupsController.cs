@@ -99,5 +99,55 @@ namespace GoshenJimenez.WhereNaYou.API.Controllers
 
             return Ok(new { Id = group.Id });
         }
+
+        //update group
+        [HttpPut("/api/groups")]
+        public IActionResult PutGroup([FromBody] UpdateGroup model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            var group = this._context.Groups.FirstOrDefault(g => g.Id == model.Id);
+
+            if(group == null)
+            {
+                return BadRequest();
+            }
+
+            group.UserId = model.UserId;
+            group.Name = model.Name;
+
+            this._context.Groups.Update(group);
+            this._context.SaveChanges();
+
+            return Ok(new { Id = group.Id });
+        }
+
+        //update group
+        [HttpPut("/api/groups/{id}")]
+        public IActionResult PutGroup(Guid? id, [FromBody] AddGroup model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            var group = this._context.Groups.FirstOrDefault(g => g.Id == id);
+
+            if (group == null)
+            {
+                return BadRequest();
+            }
+
+            group.UserId = model.UserId;
+            group.Name = model.Name;
+
+            this._context.Groups.Update(group);
+            this._context.SaveChanges();
+
+            return Ok(new { Id = group.Id });
+        }
     }
 }

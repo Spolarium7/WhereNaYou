@@ -6,3 +6,4 @@ C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNa
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.DataTransferObjects\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.AssemblyInfo.cs
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.DataTransferObjects\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.dll
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.DataTransferObjects\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.pdb
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.DataTransferObjects\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.DataTransferObjects.csprojAssemblyReference.cache
