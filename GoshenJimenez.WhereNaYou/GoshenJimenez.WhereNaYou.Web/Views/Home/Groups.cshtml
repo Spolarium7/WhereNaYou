@@ -7,19 +7,22 @@
 
 <h2>Groups</h2>
 
-@{ 
-    if(Model.Groups != null)
+@{
+    if (Model.Groups != null)
     {
-        if(Model.Groups.Items.Count > 0)
+        if (Model.Groups.Items.Count > 0)
         {
-            foreach(GroupViewModel group in Model.Groups.Items)
-            {
-                <p>
-                    <span>@group.Id</span>
-                    <span>@group.Name</span>
-                    <span>@group.CreatedAt</span>
-                </p>
-            }
+
+            <ul data-role="listview" data-inset="true" data-filter="true">
+                
+                @{ foreach (GroupViewModel group in Model.Groups.Items)
+                    {
+                        <li><a href="#">@group.Name</a></li>
+                    }
+                }
+            </ul>
+
+           
         }
     }
 

@@ -16,7 +16,7 @@ namespace GoshenJimenez.WhereNaYou.Web.Controllers
     {
         public IActionResult Groups()
         {
-            var client = new RestClient("http://localhost:5001/api/groups");
+            var client = new RestClient("http://localhost:5000/api/groups");
             var request = new RestRequest();
             request.Method = Method.GET;
             var response = client.Execute(request);
