@@ -31,3 +31,4 @@ C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNa
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.Web\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.Web.pdb
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.Web\obj\Debug\netcoreapp2.1\GoshenJimenez.WhereNaYou.Web.csproj.CopyComplete
 C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Groups.g.cshtml.cs
+C:\Users\goshe\Documents\Personal\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou\GoshenJimenez.WhereNaYou.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs

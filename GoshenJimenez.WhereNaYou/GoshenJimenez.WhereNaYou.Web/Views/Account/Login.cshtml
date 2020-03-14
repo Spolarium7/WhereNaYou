@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form method="POST" action="/account/login">
+    @Html.ValidationSummary()
+    @Html.AntiForgeryToken()
+    <input type="email" name="EmailAddress" placeholder="email address" />
+    <input type="password" name="Password" placeholder="password" />
+    <button type="submit" value="Login">Login</button>
+</form> 
